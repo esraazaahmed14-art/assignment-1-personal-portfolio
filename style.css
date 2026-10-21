@@ -1,0 +1,265 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f0f4f8;
+    color: #334155;
+    padding: 30px 0px;
+}
+
+.container {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    /* display: flex;
+    flex-direction: column;
+    gap: 20px; */
+}
+
+.sectionAbout,
+.sectionSkills,
+.sectionExperience,
+.sectionContact,
+.Footer {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 25px 30px;
+    margin-bottom: 20px;
+}
+
+.Line {
+    height: 1px;
+    background-color: #e2e8f0;
+    margin: 12px 0 20px;
+}
+
+.HeaderCard {
+    background-color: #680a0e;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 12px;
+    padding: 30px 20px;
+}
+
+.HeaderCard .header {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.HeaderCard .subtlttle {
+    font-size: 0.9rem;
+    color: #cbd5e1;
+    margin-bottom: 20px;
+}
+
+.Nav {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.Nav a {
+    display: inline-block;
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.15);
+    text-decoration: none;
+    padding: 6px 16px;
+    margin: 0 3px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+}
+
+.Nav a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.about-tittle {
+    color: #000000;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.about-content {
+    width: 100%;
+}
+
+.img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.about-text {
+    display: inline-block;
+    vertical-align: middle;
+    width: 490px;
+    padding-left: 20px;
+}
+
+.about-p {
+    font-size: 0.85rem;
+    color: #475569;
+    line-height: 1.5;
+    margin-bottom: 8px;
+}
+
+.btn-Primary {
+    display: inline-block;
+    background-color: #b14c4c;
+    color: #ffffff;
+    padding: 8px 16px;
+    font-size: 0.78rem;
+    border-radius: 6px;
+    text-decoration: none;
+    margin-top: 4px;
+}
+
+.btn-Primary:hover {
+    background-color: #680a0e;
+}
+
+.skills-tittle {
+    color: #000000;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.skill-p {
+    font-size: 0.85rem;
+    color: #64748b;
+    margin-bottom: 16px;
+}
+
+.skill-grid {
+    width: 100%;
+}
+
+.skill-card {
+    display: inline-block;
+    vertical-align: top;
+    width: 142px;
+    min-height: 105px;
+    margin-right: 14px;
+    padding: 14px 12px;
+    background-color: #f8fafc;
+    border-radius: 8px;
+    border: 1px solid #f1f5f9;
+}
+
+.skill-card .skill-tittle {
+    color: #9a8864;
+    font-weight: bold;
+    font-size: 0.88rem;
+    margin-bottom: 6px;
+    border: 1px solid #f1f5f9;
+}
+
+.skill-desc {
+    font-size: 0.75rem;
+    color: #64748b;
+    line-height: 1.3;
+}
+
+.experience-tittle {
+    color: #000000;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.experience-list {
+    width: 100%;
+}
+.experience-card{
+    background-color: #f8fafc;
+    border-left: 4px solid #9a8864;
+    border-radius: 6px;
+    padding: 16px;
+    margin-bottom: 14px;
+}
+.experience-img{
+    display:inline-block;
+    vertical-align: top;
+    width: 38px;
+    height: 38px;
+    object-fit: contain;
+    background-color: #e0f2fe;
+    padding: 7px;
+    border-radius: 8px;
+}
+.experience-details{
+    display: inline-block;
+    vertical-align: top;
+    width: 530px;
+    padding-left: 14px;
+}
+.job-tittle{
+    font-size: 0.95rem;
+    font-weight: bold;
+    color: #1e293b;
+}
+.company{
+    font-size: 0.8rem;
+    color: #9a8864;
+    font-weight: bold;
+    margin-top: 2px;
+}
+.date{
+    font-size: 0.74rem;
+    color: #94a3b8;
+    margin: 3px 0 6px;
+}
+.job-desc{
+    font-size: 0.78rem;
+    color: #475569;
+    line-height: 1.4;
+}
+
+.sectionContact{
+    background-color: #680a0e;
+    color: #ffffff;
+}
+.Contact-tittle{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 6px;
+}
+.Contact-desc{
+    font-size: 0.82rem;
+    color: #cbd5e1;
+    margin-bottom: 16px;
+}
+.Contact-button{
+    font-size: 0;
+}
+.btn-Contact{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 6px;
+    text-decoration: none;
+    padding: 7px 16px;
+    margin-right: 10px;
+    font-size: 0.78rem;
+}
+.btn-Contact:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.Footer{
+    background-color: #0f172a;
+    color: #94a3b8;
+    text-align: center;
+    padding: 16px;
+    font-size: 0.78rem;
+}
+
